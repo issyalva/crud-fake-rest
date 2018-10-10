@@ -92,11 +92,11 @@ li.author-filter:hover {
 }
 
 li.author-filter.selected {
-    background: #1779ba;
-    border-top: 1px solid #1779ba;
-    border-bottom: 1px solid #1779ba;
-    border-right: 1px solid #1779ba;
-    border-left: 1px solid #1779ba;
+    background: #2ba6cb;
+    border-top: 1px solid #2ba6cb;
+    border-bottom: 1px solid #2ba6cb;
+    border-right: 1px solid #2ba6cb;
+    border-left: 1px solid #2ba6cb;
     color: white;
 }
 
@@ -125,6 +125,10 @@ li.author-filter:hover .button.hollow.secondary {
 /**************************
 ALBUM GIRD
 **************************/
+#albums {
+    margin-bottom: 1rem;
+}
+
 .album-wrapper h5 {
     text-transform: capitalize;
 }
@@ -141,7 +145,6 @@ ALBUM GIRD
 }
 
 .img-wrapper .button-group {
-
     position: absolute;
     top: 0;
     right: 0;
@@ -151,6 +154,7 @@ ALBUM GIRD
     width: 100%;
     opacity: 0;
     text-align: right;
+    border-radius: 0;
 }
 
 .img-wrapper .button-group:hover {
